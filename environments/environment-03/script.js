@@ -51,9 +51,9 @@ function createNewProduct(event) {
     event.preventDefault();
 
     const form = event.target;
-    const name = form.name.valeu;
-    const price = Number(form.price.valeu);
-    const inStock = Boolean(form.inStock.valeu);
+    const name = form.name.value;
+    const price = Number(form.price.value);
+    const inStock = Boolean(form.inStock.checked);
 
     const newProduct = {name, price, inStock};
 
